@@ -1,0 +1,3 @@
+#content > div > div.js-boards-page > div > div > div > div > div.all-boards > div > div > div:nth-child(1){
+  display: none !important;
+}

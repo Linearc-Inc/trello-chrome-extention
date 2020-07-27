@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Linearc Trello",
+  "version": "0.1.0",
+  "description": "Display Tello in a more frendly way",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["main.js"],
+    "matches": ["https://trello.com/*"]
+  }]
+
+}
